@@ -1,17 +1,56 @@
 html {
     background-color: black;
   }
-h1{
+div{
     color: green;
     width: 500px;
     border: 1px solid white;
 }
 body {
-    width: 600px;
+    width: 500px;
     margin: 0 auto;
     background-color: red;
-    padding: 0 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
     border: 5px solid black;
     text-align: center;
-  }
+}
+
+p{
+    font-size: 30px;
+    color: blue;
+}
+
+#lista{
+    color: orange;
+}
+
+.menu{
+    background-color: rgb(37, 37, 39);
+}
+
+menu ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
   
+.menu ul li {
+    display: inline;
+}
+
+.menu ul li a {
+    color: yellow;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background 0.4s;
+}
+
+.menu ul li a:hover {
+    background-color: rgb(24, 139, 233);
+}
+
+.menu ul li:last-child a {
+    float: right;
+    background-color: rgb(24, 139, 233);
+}
